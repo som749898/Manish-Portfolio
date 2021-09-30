@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Yaldevi', sans-serif;
+}
+
+header {
+  background-color: #34D399;;
+  padding: 15px;
+  height: 17vh;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+header h1 {
+  padding-top: 5px;
+}
+
+header a {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+header ul {
+  float: right;
+}
+
+header ul li {
+  float: left;
+  list-style: none;
+  padding: 15px 25px;
+  font-size: larger;
+}
+
+.main-img {
+  display: block;
+  max-width: 420px;
+  margin: 30px auto;
+  padding-top: 40px;
+}
+
+.intro {
+  padding: 30px;
+  font-size: 28px;
+  color: grey;
+  line-height: 2.2rem;
+  text-align: center;
+}
+
+span {
+  color: #34D399;
+}
+
+.secondary-heading {
+  text-align: center;
+}
+
+.off-white {
+  background-color: #f5f7fa;
+}
+
+.container {
+  max-width: 550px;
+  margin: 0px auto;
+}
+
+.off-white, .white {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.off-white p , .white p  {
+  padding: 20px 0px;
+  font-size: 18px;
+}
+
+.primary-btn, .secondary-btn {
+  color: white;
+  background-color: #34D399;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-top: 12px;
+}
+
+.primary-btn a, .secondary-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.secondary-btn {
+  color: #34D399;
+  background-color: #f5f7fa;
+  border: 1px solid #34D399;
+}
+
+.secondary-btn a {
+  color: #34D399;
+}
+
+footer {
+  background-color: #34D399;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  border-top-right-radius: 20px;
+}
+
+footer ul {
+  margin: 20px 0px;
+}
+
+footer li {
+  display: inline;
+  padding: 40px;
+  font-size: 20px;
+}
+
+footer li a {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.blog-heading {
+  text-align: center;
+  color: grey;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.space {
+  height: 50px;
+}
